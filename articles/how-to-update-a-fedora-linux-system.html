@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://lukesmith.xyz/articles/every-web-browser-absolutely-sucks/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Every Web Browser Absolutely Sucks. | Atergaug's Webpage</title>
+	<link rel="stylesheet" type="text/css" href="../article-template_files/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	
+</head>
+<body>
+<main>
+
+<header><h1>How To Update a Fedora Linux System</h1></header>
+<article>
+<strong>This quick tutorial shows one way to update a Fedora Linux install.</strong>
+<p>I’ll be honest with you, I didn’t have much experience with Linux
+	distributions. Trying Fedora was a different kind of experience for me.</p>
+<p>The first thing I did after installing Fedora was to try and install some
+	software. I opened the software center and found that the software center
+	was ‘broken’. I couldn’t install any application from it.</p>
+<p>Sometimes we just ignore the updates and keep troubleshooting the issue we
+	face. No matter how big/small the issue is – to avoid them, you should keep
+	your system up-to-date.</p>
+<p>For some reason, I cannot reliably load up the software center, so I prefer
+	to utilize the dnf package managing commands to easily update the system.
+	<strong>There are various possible methods to update your Fedora Linux system (i.e.
+	from the software center or system settings) however, I will only cover the
+	command line method.</strong></p>
+<h3 id="free-and-open-source-software">Looking for Fedora version upgrade?</h3>
+<p>Keep in mind that updating Fedora means installing the security patches,
+	kernel updates and software updates. If you want to update from one version
+	of Fedora to another, it is called version upgrade and <strong>that is
+	beyond the scope of the procedures here.</strong></p>
+<h2 id="is-brave-bad-for-privacy">Updating Fedora Using The Terminal</h2>
+<p>Simply launch the terminal and type in the following command to start
+	updating (you should be prompted to verify the root password):</p>
+<code>sudo dnf upgrade</code>
+<h3 id="it-must-actually-work-on-the-modern-web">dnf update vs dnf upgrade</h3>
+<p>You’ll find that there are two dnf commands available: dnf update and dnf
+	upgrade. Both command do the same job and that is to install all the
+	updates provided by Fedora. Then why there is dnf update and dnf upgrade
+	and which one should you use? Well, dnf update is basically an alias to dnf
+	upgrade. While dnf update may still work, the good practice is to use dnf
+	upgrade because that is the real command.</p>
+
+</article>
+
+<footer>
+	<a href="https://atergaug.xyz">https://atergaug.xyz/</a><br>
+</footer>
+
+
+
+</body></html>
